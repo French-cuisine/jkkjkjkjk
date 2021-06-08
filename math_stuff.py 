@@ -1,4 +1,7 @@
 import numpy as np 
 import scipy as sp
 
-print('mkb')
+x,y = sp.symbols('x y')
+f = sp.Function ('f')(x,y)
+
+
