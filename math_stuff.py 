@@ -4,4 +4,6 @@ import scipy as sp
 x,y = sp.symbols('x y')
 f = sp.Function ('f')(x,y)
 
+z = Eq([f.diff(x,y)])
 
+display(z)
